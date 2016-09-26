@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="DESTINO">
+        <item>Destino</item>
+        <item>Sopetrán</item>
+        <item>Santa fé de Ant.</item>
+        <item>San Gerónimo</item>
+        <item>Copacabana</item>
+        <item>Girardota</item>
+        <item>Barbosa</item>
+        <item>La pintada</item>
+        <item>San Rafael</item>
+
+    </string-array>
+</resources>

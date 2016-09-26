@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fd5805"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/sol"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:src="@mipmap/sol" />
+
+    <TextView
+        android:id="@+id/destino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="-55dp"
+        android:text="ELIGE TU DESTINO Y RESERVALO"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#040404" />
+
+    <Spinner
+        android:id="@+id/lugares"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="#fcba03"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#fcba03"
+        android:text="BUSCAR"
+        android:id="@+id/buscar"/>
+
+    <Button
+        android:id="@+id/reservas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#fcba03"
+        android:layout_marginTop="20dp"
+        android:text="RESERVAS ONLINE" />
+
+    <Button
+        android:id="@+id/servicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fcba03"
+        android:text="OTROS SERVICIOS" />
+
+    <Button
+        android:id="@+id/contactenos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#fcba03"
+        android:text="CONTACTENOS" />
+
+    <Button
+        android:id="@+id/califiquenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="30dp"
+        android:background="#fcba03"
+        android:text="Califíquenos" />
+
+    <Button
+        android:id="@+id/quienes_somos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-35dp"
+        android:background="#fcba03"
+        android:text="Quienes somos" />
+
+
+</LinearLayout>

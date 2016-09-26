@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fd5805">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/sol" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finca1"
+        android:layout_gravity="center_horizontal"
+        android:text="                                     FINCA LAS LAJAS
+
+ Ubicada  a 500 metrosdel parque de Santa fe de Antioquia, es un lugar a cogedor con zonas verdes, zonas de juego y el mejor clima"
+        android:textColor="#050505"
+        android:layout_marginTop="10dp"
+        android:background="#fcba03" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:text="                                     FINCA LAS ESTANCIA
+
+ Ubicada  a 500 metrosdel parque de Santa fe de Antioquia, es un lugar a cogedor con zonas verdes, zonas de juego y el mejor clima"
+        android:textColor="#050505"
+        android:layout_marginTop="10dp"
+        android:background="#fcba03" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:text="                                     FINCA LA MARÍA
+
+ Ubicada  a 500 metrosdel parque de Santa fe de Antioquia, es un lugar a cogedor con zonas verdes, zonas de juego y el mejor clima"
+        android:textColor="#050505"
+        android:layout_marginTop="10dp"
+        android:background="#fcba03" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:text="                                     FINCA SOL Y LUNA
+
+ Ubicada  a 500 metrosdel parque de Santa fe de Antioquia, es un lugar a cogedor con zonas verdes, zonas de juego y el mejor clima"
+        android:textColor="#050505"
+        android:layout_marginTop="10dp"
+        android:background="#fcba03" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elegir"
+        android:id="@+id/btn1"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
